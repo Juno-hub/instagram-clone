@@ -1,0 +1,112 @@
+.auth {
+  margin: 0;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.authbox {
+  display: inline-block;
+  margin-top: 32px;
+}
+
+.auth__box {
+  background-color: white;
+  border: 1px solid lightgray;
+  width: 350px;
+  height: 380px;
+}
+
+.auth__box input {
+  background-color: #fafafa;
+  width: 250px;
+  height: 20px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  margin-bottom: 6px;
+}
+
+.auth__box input[type="email"],
+.auth__box input[type="password"] {
+  padding: 8px;
+}
+
+.auth__box .login {
+  background-color: #0096f6;
+  width: 270px;
+  height: 28px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  margin: 8px 0;
+  color: white;
+  font-weight: bold;
+}
+
+.facebook__login__box {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.facebookIcon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.facebook__login {
+  color: #385185;
+  font-weight: bold;
+  width: 268px;
+  border: none;
+  background: none;
+}
+
+.facebook__login:focus {
+  outline: none;
+}
+
+.forget__password {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.app__headerImage {
+  width: 175px;
+  height: 51px;
+  object-fit: contain;
+  margin-top: 22px;
+  margin-bottom: 12px;
+  background-color: white;
+}
+
+.auth__box2 {
+  background-color: white;
+  border: 1px solid lightgray;
+  width: 350px;
+  height: 62px;
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.auth__box2 a {
+  text-decoration: none;
+  color: #0095f7;
+  font-weight: bold;
+}
+
+.download p {
+  margin: 10px 20px;
+  font-size: 14px;
+}
+
+.download__button {
+  margin: 10px 0;
+}
+
+.download__button img {
+  width: 134px;
+  height: 43px;
+}
+
+.ios {
+  margin-right: 8px;
+}
