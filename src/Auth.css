@@ -41,6 +41,26 @@
   font-weight: bold;
 }
 
+.line__box {
+  margin: 10px 40px 18px 40px;
+  display: inline-flex;
+}
+
+.line {
+  background-color: #dbdbdb;
+  width: 103px;
+  height: 1px;
+  position: relative;
+  top: 6.3px;
+}
+
+.between {
+  color: #8e8e8e;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 0 19px;
+}
+
 .facebook__login__box {
   margin-top: 8px;
   margin-bottom: 8px;
@@ -50,6 +70,8 @@
   width: 16px;
   height: 16px;
   margin-right: 8px;
+  position: relative;
+  top: 3px;
 }
 
 .facebook__login {
@@ -85,6 +107,10 @@
   height: 62px;
   margin: 10px 0;
   font-size: 15px;
+}
+
+.auth__box2 p {
+  margin: 15px;
 }
 
 .auth__box2 a {

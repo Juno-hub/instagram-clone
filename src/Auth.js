@@ -16,6 +16,11 @@ function Auth() {
                             <input name="email" type="email" placeholder="이메일" />
                             <input name="password" type="password" placeholder="비밀번호" />
                             <button className="login">로그인</button>
+                            <div className="line__box">
+                                <div className="line"></div>
+                                <div className="between">또는</div>
+                                <div className="line"></div>
+                            </div>
                             <div className="facebook__login__box">
                                 <button className="facebook__login">
                                 <img
